@@ -1,0 +1,14 @@
+ <snippet>
+	<content><![CDATA[
+import java.io.*;
+import java.util.*;
+
+public class ${TM_FILENAME/(\.\w+)//g} {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+	}
+}
+]]></content>
+	<tabTrigger>cc</tabTrigger>
+	<!-- <scope>source.python</scope> -->
+</snippet>
